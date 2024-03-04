@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.dark{
+  background-color: #121212;
+  color: #fff;
+}
+.light{
+  background-color: #fff;
+  color: #121212;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    margin-top: 50vh;
+    outline: 0;
+    text-align: center;
+    padding: 17px 30px;
+    border: 0;
+    color: #fff;
+    font-size: 17.5px;
+    border: 2px solid transparent;
+    border-color: #000;
+    color: #000;
+    background: transparent;
+    font-weight: 800;
+    line-height: 30px;
+}
